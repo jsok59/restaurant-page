@@ -1,4 +1,5 @@
 import "./style.css";
+import generateContact from "./createContact";
 import generateHome from "./createHome";
 import generateMenu from "./createMenu";
 
@@ -24,5 +25,11 @@ menuButton.addEventListener('click', () => {
 homeButton.addEventListener('click', () => {
     clearContent();
     generateHome();
+
+});
+
+barristaButton.addEventListener('click', () => {
+    clearContent();
+    generateContact();
 
 });

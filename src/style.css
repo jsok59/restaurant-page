@@ -101,3 +101,15 @@ nav {
 
 
 /****** HEADER END ********/
+
+/****** CONTACT START ********/
+
+.contact-container {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/****** CONTACT END ********/
